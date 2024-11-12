@@ -1,4 +1,5 @@
-const url = "http://localhost:3001/products";
+const url = "https://my-json-server.typicode.com/frankruiz90/challenge-alura-geek/";
+// const url = "http://localhost:3001/";
 
 // Función genérica para manejar solicitudes HTTP
 async function makeRequest(endpoint, method = "GET", body = null) {
@@ -17,18 +18,18 @@ async function makeRequest(endpoint, method = "GET", body = null) {
 
 // Listar productos
 async function listProducts() {
-  return await makeRequest("/", "GET");
+  return await makeRequest("products/", "GET");
 }
 
 // Crear un nuevo producto
 async function createProduct(title, cost, image) {
   const newProduct = { title, cost, image };
-  return await makeRequest("/", "POST", newProduct);
+  return await makeRequest("products/", "POST", newProduct);
 }
 
 // Eliminar un producto por ID
 async function deleteProduct(id) {
-  return await makeRequest(`/${id}`, "DELETE");
+  return await makeRequest(`products/${id}`, "DELETE");
 }
 
 // Exportar funciones
