@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "8",
+      "title": "kimetsu no yaiba",
+      "cost": "33333",
+      "image": "https://media.gq.com.mx/photos/66b3e2ab1eb4176c241add84/1:1/w_2000,h_2000,c_limit/Mejores_series_de_anime.jpg"
+    },
+    {
+      "id": "8ab9",
+      "title": "mashle",
+      "cost": "5555",
+      "image": "https://i.blogs.es/5bfa17/mashle/500_333.jpeg"
+    },
+    {
+      "id": "8abs",
+      "title": "death note",
+      "cost": "55555",
+      "image": "https://es.web.img3.acsta.net/img/71/e6/71e61e6d5973a4130ab8d32273d3eda0.jpg"
+    },
+    {
+      "id": "2179",
+      "title": "Dragon Ball",
+      "cost": "55555",
+      "image": "https://static.bandainamcoent.eu/high/dragon-ball/dragon-ball-sparking-zero/00-page-setup/Page-Setup-Revamp/DBSZ_thumbnail.jpg"
+    },
+    {
+      "id": "c316",
+      "title": "Elfen Lied",
+      "cost": "56555",
+      "image": "https://sm.ign.com/t/ign_latam/screenshot/default/elfen_4sfw.1200.jpg"
+    },
+    {
+      "id": "d3e6",
+      "title": "Prueba",
+      "cost": "88888",
+      "image": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/85782c1df91c28cce80638eaba2e221d.jpg"
+    }
+  ]
+}
