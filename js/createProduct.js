@@ -1,3 +1,4 @@
+import { renderProducts } from "./listProduct.js";
 import { conectAPI } from "./script.js";
 
 const form = document.querySelector("#form-product");
@@ -64,6 +65,7 @@ async function createProduct() {
     );
     alert("Producto creado correctamente");
     clearForm();
+    renderProducts();
   } catch (error) {
     alert(error);
   }

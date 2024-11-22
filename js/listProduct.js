@@ -3,7 +3,7 @@ import { conectAPI } from "./script.js";
 const productContainer = document.querySelector("#data-products");
 
 //Funcion para renderizar la lista
-async function renderProducts() {
+export async function renderProducts() {
   productContainer.innerHTML = "";
   const products = await conectAPI.listProducts();
   products.forEach((product) => {

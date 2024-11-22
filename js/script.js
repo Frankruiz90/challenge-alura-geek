@@ -1,5 +1,6 @@
-const url = "https://my-json-server.typicode.com/frankruiz90/challenge-alura-geek/";
+// const url = "https://my-json-server.typicode.com/frankruiz90/challenge-alura-geek/";
 // const url = "http://localhost:3001/";
+const url = 'https://6740ce51d0b59228b7f16a98.mockapi.io/api/v1/';
 
 // Función genérica para manejar solicitudes HTTP
 async function makeRequest(endpoint, method = "GET", body = null) {
